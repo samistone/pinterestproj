@@ -6,9 +6,10 @@ const SignupPage = () => {
   return (
     <>
       <div style={{ display: "flex" }}>
-        <PinprojButton>
-            Sign up
-        </PinprojButton>
+        <div className="btnstyle">
+        <PinprojButton variant = "secondary">Log in</PinprojButton>
+        <PinprojButton variant = "primary">Sign up</PinprojButton>
+        </div> 
       </div>
     </>
   );
